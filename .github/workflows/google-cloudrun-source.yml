@@ -64,14 +64,15 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Install Dependencies
         working-directory: ./react-app
         run: npm install
       - name: Build React App
         working-directory: ./react-app
         run: npm run build
-      - name: Checkout
-        uses: actions/checkout@v2
+
 
       # - name: Google Auth
       #   id: auth
