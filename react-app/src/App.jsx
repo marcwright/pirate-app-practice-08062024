@@ -22,8 +22,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Practice August 6 2024
-          NP REBUI
+          ADDED GCP SECRETS
         </p>
       </div>
       <p className="read-the-docs">
